@@ -18,3 +18,18 @@ Since our main chip uses little-endian mode, we need to define the following mac
 #define PJ_IS_LITTLE_ENDIAN 1  
 #define PJ_IS_BIG_ENDIAN 0  
 
+
+#define PJ_IS_LITTLE_ENDIAN			1  
+#define PJ_IS_BIG_ENDIAN			  0  
+
+#include <pj/log.h>  
+#include <pjlib.h>  
+#include <pjlib-util.h>  
+#include <pjnath.h>  
+#include <pjmedia.h>  
+#include <pjmedia-codec.h>  
+#include <pjsip.h>  
+#include <pjsip_simple.h>  
+#include <pjsip_ua.h>  
+#include <pjsua-lib/pjsua.h>  
+#include <pjsua-lib/pjsua_internal.h>  
