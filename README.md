@@ -5,6 +5,11 @@ https://www.pjsip.org/
 https://github.com/pjsip/pjproject/releases  
 https://github.com/pjsip/pjproject  
 
+
+Related dependencies:  
+https://github.com/uuidjs/uuid/releases
+(we use 1.0.3)
+
 Since our main chip uses little-endian mode, we need to define the following macros in our own project:  
 
 #define PJ_IS_LITTLE_ENDIAN 1  
