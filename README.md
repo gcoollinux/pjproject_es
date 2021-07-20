@@ -11,7 +11,7 @@ https://github.com/uuidjs/uuid/releases
 (we use 1.0.3)
 
 Sample cross-compilation configuration  
-./configure --prefix=`pwd`/__install --host=arm-dspg-linux CC=arm-dspg-linux-uclibceabi-gcc AR=arm-dspg-linux-uclibceabi-ar LINK=arm-dspg-linux-uclibceabi-gcc CXX=arm-dspg-linux-uclibceabi-g++ --disable-v4l2 --disable-openh264  
+./configure --prefix=\`pwd\`/__install --host=arm-dspg-linux CC=arm-dspg-linux-uclibceabi-gcc AR=arm-dspg-linux-uclibceabi-ar LINK=arm-dspg-linux-uclibceabi-gcc CXX=arm-dspg-linux-uclibceabi-g++ --disable-v4l2 --disable-openh264  
 
 Since our main chip uses little-endian mode, we need to define the following macros in our own project:  
 
