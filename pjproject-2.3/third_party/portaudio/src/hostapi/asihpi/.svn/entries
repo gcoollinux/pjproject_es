@@ -1,0 +1,40 @@
+8
+
+dir
+1433
+http://subversion.assembla.com/svn/portaudio/portaudio/trunk/src/hostapi/asihpi
+http://subversion.assembla.com/svn/portaudio
+
+
+
+2008-02-22T05:35:29.570101Z
+1356
+rossb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0f58301d-fd10-0410-b4af-bbb618454e57
+
+pa_linux_asihpi.c
+file
+
+
+
+
+2021-02-19T09:41:18.000000Z
+f3d86148c13a6e8468e4264a4045d468
+2008-02-22T05:35:29.570101Z
+1356
+rossb
+
