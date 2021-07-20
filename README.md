@@ -18,7 +18,7 @@ Since our main chip uses little-endian mode, we need to define the following mac
 #define PJ_IS_LITTLE_ENDIAN 1  
 #define PJ_IS_BIG_ENDIAN 0  
 
-E.g
+E.g  
 #define PJ_IS_LITTLE_ENDIAN			1  
 #define PJ_IS_BIG_ENDIAN			  0  
 
